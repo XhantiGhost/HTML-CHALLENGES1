@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NESTED TABLES</title>
+<style>
+
+table, tr, td {border: 1px solid black;}
+
+table {border-collapse: collapse;}
+
+.orange {background-color: orangered;}
+
+.yellow {background-color: yellow;}
+
+
+ </style>
+  </head>
+  <body>
+<h2>First Table is is not nested</h2>
+
+    <table style="width: 50%">
+   <tr>
+    <td>1</td>
+    <td colspan="3">2</td>
+
+ </tr>
+   <tr>
+    <td rowspan="3">3</td>
+    <td class="orange">4</td>
+    <td class="orange">5</td>
+    <td rowspan="2" class="yellow">6</td>
+
+   <tr>
+    <td class="orange">7</td>
+    <td class="orange">8</td>
+ </tr>
+
+<tr>
+  <td colspan="2" class="yellow">9</td>
+  <td class="yellow">10</td>
+
+</tr>
+    </table>
+
+
+  </body>
+
+
+</table>
+<h2> The Second Table which is nested</h2>
+
+  <table style="width: 50%; height: 50%">
+    <tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+
+    </tr>
+        <tr>
+
+          <td rowspan="3">3</td>
+          <td>4</td>
+          <td>5</td>
+          <td colspan="2"; rowspan="2">6</td>
+
+
+
+            <tr>
+                <td>7</td>
+                    <td>8</td>
+
+    </tr>
+
+  </tr>
+
+
+        <tr>
+          <td colspan="2">9</td>
+
+
+          <td colspan="2">10</td>
+
+</tr>
+
+      </table>
+
+        </table>
+
+</tr>
+
+
+
+
+
+
+  </table>
+</html>

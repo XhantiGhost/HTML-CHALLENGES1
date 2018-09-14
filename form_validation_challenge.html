@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form_validation</title>
+    <style media="screen">
+      input{
+        width: 20%;
+      }
+input {
+  placeholder text-emphasis-color: red;
+}
+    </style>
+  </head>
+  <body>
+
+    <center><h1>Registration Form</h1></center>
+
+    <form>
+      <tr>
+  <center> <td><label> User id: </label></td> </center>
+  <center> <td> <input type="text" name="username" value="" placeholder="required and must be a lenght of 5 to 12" required></td> </center><br>
+
+  <center>   <td><label> Password:</label></td></center>
+ <center>  <td>  <input type="password" name="psw" value="" placeholder="required and must be a lenght of 7 to 12" required></td></center>
+
+  <center>  <td>  <label> Name: </label></td> </center>
+  <center>   <td>  <input type="text" name="name " value="" placeholder="Required and alphebates only." required></td> <center>
+
+  <center>    <td><label> address </label></td></center>
+  <center>  <td> <input type="address" name="" value="" placeholder="optional" optional></td> </center>
+
+  <center>  <td> <label> Country: </label></td> </center>
+<center>  <td>   <select id="country" name="country" placeholder"(Please select a Country)"></td> </center>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="South Africa">South Africa</option>
+
+        </select>
+
+    <center>  <td><label> ZIP Code: </label></td> </center>
+
+    <center>  <td>  <input type="" name="" value="" placeholder="Required. Must be numeric only." required></td> </center>
+
+  <center>    <td>  <label> Email: </label></td> </center>
+    <center>  <td>  <input type="text" name="email" placeholder="must be a valid email" required> </td> </center>
+
+    <center>  <td>  <label> Sex: </label></td> </center>
+    <center>   <input type="radio" name="gender" value="male" checked required> Male </center> <br>
+    <center>    <input type="radio" name="gender" value="female" required> Female </center>
+
+    <center>  <td>  <label> Language: </label></td> </center>
+    <center>    <input type="radio" name="" value="English" placeholder="Required" required> English </center> <br>
+    <center>    <input type="radio" name="" value="Non-English" placeholder="Required" required> Non-English </center> <br>
+
+      <td>  <label>About: </label></td>
+    <center>  <textarea placeholder="optional" name="" rows="5" maxlength="100"></textarea><br> </center>
+          <center>  <button type="submit">Submit</button> </center>
+
+</tr>
+      </form>
+
+  </body>
+</html>

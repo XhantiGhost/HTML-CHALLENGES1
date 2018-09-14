@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TABLES</title>
+    <!--the style head tag is always writen in the head tag at the start of the html program  -->
+    <!-- the table description is to tell the program how too style the border -->
+    <style>
+
+    table, th, td {border: 1px solid black;}
+
+    table {border-collapse: collapse;}
+
+    </style>
+
+  </head>
+  <body>
+    <table style="width: 50%">
+      <thead>
+    <tr>
+      <!--colspan is used to merge two cell or blocks together  -->
+      <td colspan="2">1</td>
+      <td>2</td>
+
+    </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <!--rowspan is similar to colspan but it merges two rows  -->
+    <td rowspan="2">2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</tbody>
+<tfoot>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</tfoot>
+
+    </table>
+
+  </body>
+</html>
